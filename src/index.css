@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Epilogue:wght@500;700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Jost:ital,wght@0,400;0,600;0,700;1,500&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700&family=Montserrat:ital,wght@0,500;1,200&family=Open+Sans&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Playpen+Sans:wght@700&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:ital,wght@0,400;0,600;0,700;1,800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&family=Rubik:ital@1&family=Space+Grotesk:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Jost, sans-serif;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+}
+
+.card {
+  width: 375px;
+  height: 500px;
+  background-color: #8574e6cd;
+  text-align: center;
+  padding: 2.5rem;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 15px 5px rgb(143, 143, 199);
+  border-radius: 2rem;
+  color: white;
+}
+
+input {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  border: 1px solid rgb(143, 143, 199);
+  text-align: center;
+  font-size: 1.5rem;
+  color: #7c68eef5;
+}
+::placeholder {
+  color: #7c68eebf;
+}
+
+.info {
+  padding-top: 15%;
+}
+
+.location { 
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.temp {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.tempin-max {
+  font-weight: 100;
+  color: #252a2e;
+}
+
+.box {
+  position: fixed;
+  bottom: 40%;
+  transform: rotate(45deg); 
+  left: 40%;
+}
+
+.wave {
+  position: absolute;
+  opacity: .4;
+  width: 1500px;
+  height: 1300px;
+  margin-left: -150px;
+  margin-top: -250px;
+  border-radius: 43%;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  from {transform: rotate(360deg);}
+}
+
+.wave.-one {
+  animation: rotate 10000ms infinite linear;
+  opacity: 5%;
+  background: white;
+}
+
+.wave.-two {
+  animation: rotate 6000ms infinite linear;
+  opacity: 10%;
+  background: white;
+}
+
+p {
+  padding-top: 30%;
+  font-size: 1.5rem;
+}
