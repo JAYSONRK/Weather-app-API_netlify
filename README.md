@@ -11,7 +11,7 @@
 
 ## overview
 
-This is a React.js project with html, css and javascript.
+This is a React.js project with html, css, javascript and API.
 
 ## features
 
@@ -39,6 +39,7 @@ Your users should be able to:
 - Mobile-first workflow
 - CSS Grid
 - React JS library
+- API
 
 ## Author
 
